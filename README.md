@@ -16,10 +16,13 @@ This project provides insights into the impact of different architectural modifi
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Number of the channels in the residual layer     | 64, 128, 256                                             |
 | Batch Size                                       | 128                                                      |
+| Kernel Size                                      | 3                                                        |
+| Padding                                          | 1                                                        |
 | Input data normalization                         | (0.4914,0.4822,0.4465), (0.2023,0.1994,0.2010)           |
 | Number of residual blocks in each residual layer | Layer 1: 4;   Layer 2: 5;   Layer 3: 3                   |
 | Initial Learning Rate                            | 0.1                                                      |
 | Data augmentation strategies implemented         | Random Crop, Random Horizontal Flip, Normalize, ToTensor |
+| Optimizer                                        | SGD with WEIGHT_DECAY = 0.001 and MOMENTUM = 0.9         |
 
 
 
