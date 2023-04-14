@@ -4,9 +4,9 @@
 
 ## **Introduction**
 
+In this project, we modify the architecture of the residual network (ResNet) model for image classification on the CIFAR-10 dataset, with the goal of achieving a test accuracy of over 90% while keeping the model size under 5 million parameters. 
 
-
-
+This project provides insights into the impact of different architectural modifications and hyper-parameter choices on the performance of ResNet, in the context of image classification tasks.
 
 ## **Method Design for Tuning:**
 
