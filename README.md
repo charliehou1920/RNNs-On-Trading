@@ -10,38 +10,29 @@ This project provides insights into the impact of different architectural modifi
 
 ## **Methodologies to improve the Network**
 
-**Step One:**
+**Methodology 1: Adjust the channel size for the Network** 
 
-The **First** parameter we tune is the **Channel Size**:
-
-**Four** Channel Size numbers will be tested in:
-
-32 (Original) --->	64 --->	**42 (Best)**	--->	25
-
-- Plot the 4 graphs (finished)
-- Compare the results
+We found channel size = 32 or channel size = 42 is a good option when number of channels in the residual layer is 4, kernel_ size = 3 and padding = 1.
 
 ---------------------------------------------------------------------
 
-**Step Two:**
+**Methodology 2: Implement learning rate decay algorithm**
 
-The Second parameter we tune is the **Filter Size**:
+We designed and implemented a Constant Learning Rate Decay Algorithm to control the learning rate. Here is the core logic implemented by Python:
 
-The two parameters we need to tune is: **Padding** and **Kernel_Size**
+```python
+# We set epoch_num = 50, initial lr = 0.1, lr_decay_period = 2
+for epoch in range(epoch_num):
+    if epoch != 0 and epoch % lr_decay_period == 0:
+        if(lr>0.0015):
+            lr*=lr_decay
+```
 
-Three sets will be tested:
 
-[padding = 1, padding = 1, kernel_size = 3]
-
-**[padding = 2, padding = 2, kernel_size = 5] (Best)**
-
-[padding = 3, padding = 3, kernel_size = 7]   
-
-- Plot the graph (finished)
 
 ---------------------------------------------------------------------
 
-**Step Three (important!!!):**
+**Methodology  3**
 
 Add a **Learning Rate Decay** parameter for tuning the Learning Rate with two other parameters: **high_speed_lr_decay** and **low_speed_lr_decay**
 
@@ -50,7 +41,7 @@ Here is the Basic Coding Logic for Tuning Learning Rate:
 ```python
 if lr > 0.003:
     lr_decay = high_speed_lr_decay
-else:
+else
     lr_decay = low_speed_lr_decay
 lr *= lr_decay
 ```
@@ -62,7 +53,7 @@ low_speed_lr_decay should set higher.
 
 ---------------------------------------------------------------------
 
-**Step Four:**
+**Methodology 4:**
 
 Compare Optimizer: **SGD** vs **Adams**
 
