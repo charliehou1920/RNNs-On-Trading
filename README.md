@@ -14,7 +14,7 @@ This Repository contains 5 files:
 
 (4) Best_Model_loss_history.png: This is a screen shot which records the loss per epoch in our best mode
 
-(5)README.md: The README file provides a generalization for this mini project
+(5) README.md: The README file provides a generalization for this mini project
 
 ---------------------------------------------------------------------------------------------------
 
