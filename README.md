@@ -8,7 +8,15 @@ This Repository contains 5 files:
 
 (1) Mini_Project_Final.ipynb: This file contains everything for this mini project. Recommend you to run it on Google Colab
 
-(2) Best_Model.pt: This is a PyTorch file with the best model we got after training 50 epochs
+(2) Best_Model.pt: This is a PyTorch file with the best model we got after training 50 epochs. You can load our best model with following commands on Google Colab:
+
+```python
+import torch
+PATH = 'Best_Model.pt'
+# Load
+model = torch.load(PATH)
+model.eval()
+```
 
 (3) Best_Model_acc_history.png : This is a screen shot which records the accuracy per epoch in our best model
 
