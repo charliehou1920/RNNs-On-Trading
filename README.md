@@ -8,6 +8,21 @@ In this project, we modify the architecture of the residual network (ResNet) mod
 
 This project provides insights into the impact of different architectural modifications and hyper-parameter choices on the performance of ResNet, in the context of image classification tasks.
 
+-------------------------------------------------------------------------
+
+## Final Model Architecture
+
+| Final model parameters                           | Values for the parameter                                 |
+| ------------------------------------------------ | -------------------------------------------------------- |
+| Number of the channels in the residual layer     | 64, 128, 256                                             |
+| Batch Size                                       | 128                                                      |
+| Input data normalization                         | (0.4914,0.4822,0.4465), (0.2023,0.1994,0.2010)           |
+| Number of residual blocks in each residual layer | Layer 1: 4;   Layer 2: 5;   Layer 3: 3                   |
+| Initial Learning Rate                            | 0.1                                                      |
+| Data augmentation strategies implemented         | Random Crop, Random Horizontal Flip, Normalize, ToTensor |
+
+
+
 ------------------------------------------------------------------------
 
 ## **Methodologies to improve the Network**
