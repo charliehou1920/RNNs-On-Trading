@@ -2,6 +2,22 @@
 
 -------------------------------------------------------------------------------------------------------------
 
+## A guide for this repository
+
+This Repository contains 5 files:
+
+(1) Mini_Project_Final.ipynb: This file contains everything for this mini project. Recommend you to run it on Google Colab
+
+(2) Best_Model.pt: This is a PyTorch file with the best model we got after training 50 epochs
+
+(3) Best_Model_acc_history.png : This is a screen shot which records the accuracy per epoch in our best model
+
+(4) Best_Model_loss_history.png: This is a screen shot which records the loss per epoch in our best mode
+
+(5)README.md: The README file provides a generalization for this mini project
+
+---------------------------------------------------------------------------------------------------
+
 ## **Introduction**
 
 In this project, we modify the architecture of the residual network (ResNet) model for image classification on the CIFAR-10 dataset, with the goal of achieving a test accuracy of over 90% while keeping the model size under 5 million parameters. 
