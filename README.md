@@ -4,7 +4,7 @@
 
 ## A guide for this repository
 
-This Repository contains 5 files:
+This Repository contains 6 files:
 
 (1) Mini_Project_Final.ipynb: This file contains everything for this mini project. Recommend you to run it on Google Colab
 
@@ -22,7 +22,9 @@ model.eval()
 
 (4) Best_Model_loss_history.png: This is a screen shot which records the loss per epoch in our best mode
 
-(5) README.md: The README file provides a generalization for this mini project
+(5) Best_Model_Training_Log.txt: This log file records each training epoch and the best accuracy score
+
+(6) README.md: The README file provides a generalization for this mini project
 
 ---------------------------------------------------------------------------------------------------
 
