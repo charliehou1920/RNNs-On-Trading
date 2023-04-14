@@ -8,6 +8,8 @@ In this project, we modify the architecture of the residual network (ResNet) mod
 
 This project provides insights into the impact of different architectural modifications and hyper-parameter choices on the performance of ResNet, in the context of image classification tasks.
 
+------------------------------------------------------------------------
+
 ## **Methodologies to improve the Network**
 
 **Methodology 1: Adjust the channel size for the Network** 
@@ -32,49 +34,24 @@ for epoch in range(epoch_num):
 
 ---------------------------------------------------------------------
 
-**Methodology  3**
+**Methodology  3: Data Augmentation**
 
-Add a **Learning Rate Decay** parameter for tuning the Learning Rate with two other parameters: **high_speed_lr_decay** and **low_speed_lr_decay**
-
-Here is the Basic Coding Logic for Tuning Learning Rate:
-
-```python
-if lr > 0.003:
-    lr_decay = high_speed_lr_decay
-else
-    lr_decay = low_speed_lr_decay
-lr *= lr_decay
-```
-
-high_speed_lr_decay should set lower.
-
-low_speed_lr_decay should set higher.
+The augmentation methods we utilized in our model: Random Crop, Random Horizontal Flip, Normalize, ToTensor
 
 
 ---------------------------------------------------------------------
 
-**Methodology 4:**
+**Methodology 4: Modify Resnet layers and add bottleneck**
 
-Compare Optimizer: **SGD** vs **Adams**
+For our final model, we set the number of channels in the residual layer as 3. Number of residual blocks in each residual layer is: 
 
-SGD Parameters setting
+Layer 1: 4
 
-- WEIGHT_DECAY
-- MOMENTUM
-- DAMPENING
-- LEARNING RATE
+Layer 2: 5
 
-Adams Parameters setting:
+Layer 3: 3
 
-- WEIGHT_DECAY
-- LEARNING RATE
-- PARAMS
 
--------------------------------------------------------------
-
-**Step Five:**
-
-Compare ResNet 18 with ResNet 34
 
 
 
