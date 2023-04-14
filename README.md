@@ -8,7 +8,7 @@ In this project, we modify the architecture of the residual network (ResNet) mod
 
 This project provides insights into the impact of different architectural modifications and hyper-parameter choices on the performance of ResNet, in the context of image classification tasks.
 
-## **Method Design for Tuning:**
+## **Methodologies to improve the Network**
 
 **Step One:**
 
