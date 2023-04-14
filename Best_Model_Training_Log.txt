@@ -1,0 +1,94 @@
+This is the method from paper, without grey random
+hyperparamter:
+lr_decay_period:2
+batch_size:128
+lr:0.1
+epoch_num:50
+momentum:0.9
+weight_decay:0.001
+channel:64
+Begin training, time: 2023-04-14 18:26:18.566412
+Epoch 0, Train loss 1.831292, Test loss 1.750720, Train acc 0.321495, Test acc 0.379252, Running time 0:00:12.243817
+Epoch 1, Train loss 1.342878, Test loss 1.988314, Train acc 0.506901, Test acc 0.456883, Running time 0:00:11.608942
+lr decays 
+Epoch 2, Train loss 1.011871, Test loss 0.946538, Train acc 0.640074, Test acc 0.667425, Running time 0:00:11.947598
+Epoch 3, Train loss 0.823651, Test loss 1.089112, Train acc 0.711421, Test acc 0.635680, Running time 0:00:11.688640
+lr decays 
+Epoch 4, Train loss 0.655523, Test loss 0.735217, Train acc 0.772626, Test acc 0.747923, Running time 0:00:11.609061
+Epoch 5, Train loss 0.594594, Test loss 0.735818, Train acc 0.796739, Test acc 0.746638, Running time 0:00:11.666397
+lr decays 
+Epoch 6, Train loss 0.507027, Test loss 0.641023, Train acc 0.827118, Test acc 0.781151, Running time 0:00:11.561420
+Epoch 7, Train loss 0.481031, Test loss 0.605984, Train acc 0.836513, Test acc 0.792820, Running time 0:00:11.704620
+lr decays 
+Epoch 8, Train loss 0.415031, Test loss 0.625975, Train acc 0.858672, Test acc 0.797172, Running time 0:00:11.687934
+Epoch 9, Train loss 0.398419, Test loss 0.471204, Train acc 0.863255, Test acc 0.841377, Running time 0:00:11.501470
+lr decays 
+Epoch 10, Train loss 0.339133, Test loss 0.438424, Train acc 0.883444, Test acc 0.854628, Running time 0:00:11.525590
+Epoch 11, Train loss 0.331562, Test loss 0.470220, Train acc 0.884914, Test acc 0.839498, Running time 0:00:11.539872
+lr decays 
+Epoch 12, Train loss 0.273050, Test loss 0.376418, Train acc 0.907437, Test acc 0.871440, Running time 0:00:11.462590
+Epoch 13, Train loss 0.261885, Test loss 0.350082, Train acc 0.911145, Test acc 0.884395, Running time 0:00:11.527765
+lr decays 
+Epoch 14, Train loss 0.217882, Test loss 0.363978, Train acc 0.926982, Test acc 0.878066, Running time 0:00:11.609266
+Epoch 15, Train loss 0.210157, Test loss 0.374648, Train acc 0.928724, Test acc 0.877769, Running time 0:00:11.546809
+lr decays 
+Epoch 16, Train loss 0.172265, Test loss 0.319016, Train acc 0.943406, Test acc 0.899328, Running time 0:00:11.548732
+Epoch 17, Train loss 0.159960, Test loss 0.298405, Train acc 0.946695, Test acc 0.900415, Running time 0:00:11.521678
+lr decays 
+Epoch 18, Train loss 0.124663, Test loss 0.290853, Train acc 0.960194, Test acc 0.904470, Running time 0:00:11.448457
+Epoch 19, Train loss 0.119960, Test loss 0.303241, Train acc 0.960774, Test acc 0.902888, Running time 0:00:11.465305
+lr decays 
+Epoch 20, Train loss 0.091543, Test loss 0.259152, Train acc 0.971915, Test acc 0.920787, Running time 0:00:11.423685
+Epoch 21, Train loss 0.085472, Test loss 0.282060, Train acc 0.972594, Test acc 0.911788, Running time 0:00:11.410855
+lr decays 
+Epoch 22, Train loss 0.066778, Test loss 0.263960, Train acc 0.979939, Test acc 0.918710, Running time 0:00:11.541910
+Epoch 23, Train loss 0.058125, Test loss 0.245337, Train acc 0.983176, Test acc 0.924347, Running time 0:00:11.569691
+lr decays 
+Epoch 24, Train loss 0.046259, Test loss 0.246302, Train acc 0.987356, Test acc 0.926622, Running time 0:00:11.448678
+Epoch 25, Train loss 0.038132, Test loss 0.237665, Train acc 0.990269, Test acc 0.928896, Running time 0:00:11.533620
+lr decays 
+Epoch 26, Train loss 0.031050, Test loss 0.247597, Train acc 0.992735, Test acc 0.928303, Running time 0:00:11.433161
+Epoch 27, Train loss 0.027113, Test loss 0.234444, Train acc 0.993686, Test acc 0.930479, Running time 0:00:11.547985
+lr decays 
+Epoch 28, Train loss 0.022476, Test loss 0.235432, Train acc 0.995492, Test acc 0.932358, Running time 0:00:11.510815
+Epoch 29, Train loss 0.021644, Test loss 0.234991, Train acc 0.995672, Test acc 0.932456, Running time 0:00:11.511514
+lr decays 
+Epoch 30, Train loss 0.018159, Test loss 0.230322, Train acc 0.996863, Test acc 0.931962, Running time 0:00:11.533926
+Epoch 31, Train loss 0.016120, Test loss 0.229876, Train acc 0.997391, Test acc 0.933643, Running time 0:00:11.480962
+lr decays 
+Epoch 32, Train loss 0.015084, Test loss 0.233662, Train acc 0.997882, Test acc 0.931863, Running time 0:00:11.569565
+Epoch 33, Train loss 0.013923, Test loss 0.237228, Train acc 0.998082, Test acc 0.932160, Running time 0:00:11.526565
+lr decays 
+Epoch 34, Train loss 0.013045, Test loss 0.232885, Train acc 0.998162, Test acc 0.931764, Running time 0:00:11.543628
+Epoch 35, Train loss 0.012790, Test loss 0.234285, Train acc 0.998002, Test acc 0.934632, Running time 0:00:11.665209
+lr decays 
+Epoch 36, Train loss 0.011982, Test loss 0.235591, Train acc 0.998262, Test acc 0.933742, Running time 0:00:11.620393
+Epoch 37, Train loss 0.011141, Test loss 0.232839, Train acc 0.998641, Test acc 0.934830, Running time 0:00:11.525674
+lr decays 
+Epoch 38, Train loss 0.011664, Test loss 0.233466, Train acc 0.998342, Test acc 0.935621, Running time 0:00:11.559524
+Epoch 39, Train loss 0.011008, Test loss 0.229778, Train acc 0.998521, Test acc 0.936313, Running time 0:00:11.731298
+lr decays 
+Epoch 40, Train loss 0.010927, Test loss 0.230870, Train acc 0.998721, Test acc 0.936808, Running time 0:00:11.542944
+Epoch 41, Train loss 0.009688, Test loss 0.232557, Train acc 0.999001, Test acc 0.935127, Running time 0:00:11.496941
+lr decays 
+Epoch 42, Train loss 0.009965, Test loss 0.232209, Train acc 0.998841, Test acc 0.934929, Running time 0:00:11.600158
+Epoch 43, Train loss 0.010350, Test loss 0.233277, Train acc 0.998649, Test acc 0.933445, Running time 0:00:11.503885
+lr decays 
+Epoch 44, Train loss 0.009602, Test loss 0.226227, Train acc 0.999061, Test acc 0.937797, Running time 0:00:11.584394
+Epoch 45, Train loss 0.009289, Test loss 0.230372, Train acc 0.999041, Test acc 0.935127, Running time 0:00:11.542953
+lr decays 
+Epoch 46, Train loss 0.009745, Test loss 0.225046, Train acc 0.998781, Test acc 0.937104, Running time 0:00:11.475656
+Epoch 47, Train loss 0.009098, Test loss 0.232646, Train acc 0.999141, Test acc 0.935621, Running time 0:00:11.471630
+lr decays 
+Epoch 48, Train loss 0.008157, Test loss 0.234502, Train acc 0.999261, Test acc 0.936313, Running time 0:00:11.570485
+Epoch 49, Train loss 0.008445, Test loss 0.234663, Train acc 0.999201, Test acc 0.934731, Running time 0:00:11.492276
+Finished trainning, end time:2023-04-14 18:35:58.521910Total running time,0:09:39.955498
+The number of trainable parametes:4992586
+For the best model, Test loss 0.226227, Test acc 0.937797
+torch.return_types.max(
+values=tensor([10.4842,  7.3253, 11.4882, 12.4403, 12.4572,  5.4405,  9.9591, 10.1005,
+        15.4325,  8.2158, 13.2015,  7.8435,  7.1097,  7.7225,  8.2337, 11.7242],
+       device='cuda:0', grad_fn=<MaxBackward0>),
+indices=tensor([7, 5, 8, 0, 8, 4, 7, 0, 3, 5, 3, 8, 3, 5, 1, 7], device='cuda:0'))
+tensor([7, 5, 8, 0, 8, 2, 7, 0, 3, 5, 3, 8, 3, 5, 1, 7], device='cuda:0')
+tensor(0.0848, device='cuda:0', grad_fn=<NllLossBackward0>)
