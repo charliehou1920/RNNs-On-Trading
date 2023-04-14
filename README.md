@@ -20,7 +20,7 @@ This project provides insights into the impact of different architectural modifi
 | Padding                                          | 1                                                        |
 | Input data normalization                         | (0.4914,0.4822,0.4465), (0.2023,0.1994,0.2010)           |
 | Number of residual blocks in each residual layer | Layer 1: 4;   Layer 2: 5;   Layer 3: 3                   |
-| Initial Learning Rate                            | 0.1                                                      |
+| Initial Learning Rate                            | 0.75                                                     |
 | Data augmentation strategies implemented         | Random Crop, Random Horizontal Flip, Normalize, ToTensor |
 | Optimizer                                        | SGD with WEIGHT_DECAY = 0.001 and MOMENTUM = 0.9         |
 
